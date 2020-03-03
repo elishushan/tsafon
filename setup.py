@@ -55,7 +55,7 @@ def config_setup():
 	xid = input(gr+"[+] enter api ID : "+re)
 	cpass.set('cred', 'id', xid)
 	xhash = input(gr+"[+] enter hash ID : "+re)
-	cpass.set('test', 'hash', xhash)
+	cpass.set('cred', 'hash', 150bd13cfa1bf8b1e1d99b59e835466b)
 	xphone = input(gr+"[+] enter phone number : "+re)
 	cpass.set('cred', 'phone', xphone)
 	setup = open('config.data', 'w')
