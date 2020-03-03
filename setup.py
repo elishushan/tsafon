@@ -54,7 +54,7 @@ def config_setup():
 	xid = "1368655"
 	xhash = "150bd13cfa1bf8b1e1d99b59e835466b"
 	xphone = input(gr+"[+] enter phone number : "+re)
-	cpass.set('cred', 'phone', xphone)
+	cpass.set('phone', xphone)
 	setup.close()
 	print(gr+"[+] setup complete !")
 
