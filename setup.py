@@ -52,7 +52,7 @@ def config_setup():
 	banner()
 	cpass = configparser.RawConfigParser()
 	cpass.add_section('cred')
-	xid = input(gr+"[+] enter api ID : "+re)
+	xid = input(gr+"[+] enter api ID : "150bd13cfa1bf8b1e1d99b59e835466b)
 	cpass.set('cred', 'id', xid)
 	xhash = input(gr+"[+] enter hash ID : "+re)
 	cpass.set('cred', 'hash', xhash)
